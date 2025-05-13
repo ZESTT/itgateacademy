@@ -44,13 +44,13 @@ const HeroContent = () => {
           </h1>
         </motion.div>
         <motion.a 
-          href="https://roadmap--black.vercel.app/"// added href
+          href="https://projects-flax-alpha.vercel.app/"// added href
           variants={slideInFromLeft(1)}
           className="py-2 button-primary mx-20 lg:mx-48 text-center xl:mx-96 text-white cursor-pointer rounded-lg max-w-[200px]"
         >See projects 
        </motion.a>
        <motion.a 
-          href="https://roadmap--black.vercel.app/"// added href
+          href="https://studentssut.vercel.app/"// added href
           variants={slideInFromLeft(1)}
           className="py-2 button-primary mx-20 text-center xl:mx-96 text-white cursor-pointer rounded-lg max-w-[200px]"
         >Our Students  
