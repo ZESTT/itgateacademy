@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "It Gate Academy",
-  description: " Academy Site",
+  description: "Authorized Traning Center. Cisco Certified Traning Scholarships",
 };
 
 export default function RootLayout({

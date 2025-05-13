@@ -50,11 +50,13 @@ const HeroContent = () => {
 
         </motion.p>
         <motion.a 
+          href="https://roadmap--black.vercel.app/"// added href
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[500px]"
         >
-          Learn More!
-        </motion.a>
+       🧑‍💻 ♥️    محتوي الدبلومة
+
+      </motion.a>
       </div>
 
       <motion.div
