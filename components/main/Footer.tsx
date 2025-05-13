@@ -28,9 +28,7 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">0222605347</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <a  href="https://itgateacademy.com" className="text-[15px] ml-[6px]">Visite Our Site</a>    
-                    </p>
+                                    </p>
                 </div>
             </div>
 
