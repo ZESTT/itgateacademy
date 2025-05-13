@@ -34,9 +34,9 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px]  xl:mx-96 px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[2px]  sm:mr-10  border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <SparklesIcon className="text-[#b49bff] h-5 w-5" />
           <h1 className="Welcome-text  text-[13px]">
 ↓🤍          مشاريع عملي يتم تطبيقها اضغط هنا لكي تتمكن من رؤيتها
 
@@ -46,13 +46,13 @@ const HeroContent = () => {
         <motion.a 
           href="https://projects-flax-alpha.vercel.app/"// added href
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary mx-20  sm:p-5 sm:w-75lg:mx-48 text-center xl:mx-96 text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="button-primary lg:w-48 sm:w-50  h-fit w-full text-white xl:mx-96 cursor-pointer  "
         >See projects 
        </motion.a>
        <motion.a 
           href="https://studentssut.vercel.app/"// added href
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary mx-20 text-center xl:mx-96 text-white sm:p-5 sm:w-75 cursor-pointer rounded-lg max-w-[200px]"
+          className=" button-primary h-fit w-full  lg:w-48 text-center xl:mx-96 text-white   cursor-pointer  "
         >Our Students  
        </motion.a>
       </div>
