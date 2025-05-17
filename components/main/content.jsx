@@ -5,28 +5,24 @@ export default function Index() {
   return (
     
     <div className={Styles["dev-roadmap-cont"]} id="jc">
-                   <h1 className="text-white lg:text-6xl text-lg lg:ml-24"  >
-♥️        محتوي أقوي دبلومة بالشرق الأوسط
-
-      </h1>
-
+  
       
       <br />
-      <h1 className="lg:text-6xl text-white lg:ml-24 text-lg text-center">
-Web Development Outlines🤍
+      <h1 className="lg:text-6xl text-white lg:ml-24 text-2xl text-center">
+              Web Development Outlines🤍
 
       </h1>
        <br />
   
       <div className={Styles["dev-roadmap-left"]} >
         <div className={Styles["dev-roadmap-mint"]} >
-         <h1 className="lg:text-6xl text-white lg:ml-24 text-lg">Front-End Content</h1>
+         <h1 className="lg:text-6xl text-white lg:ml-24 text-3xl text-center font-serif">Front-End Content ⏝⏜</h1>
        <br />
        <br />
-       <br />
+    
 
           
-          <h4 className={Styles["dev-roadmap-mint-title"]}>1- First  Step HTML ♡</h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>1- First  Step HTML <br /> (8 HOURS) ♡</h4>
           <ul className={Styles["dev-roadmap-list"]}>
             <li> HTML Basics 🤔</li>
             <li>Semantic HTML🤝</li>
@@ -36,8 +32,9 @@ Web Development Outlines🤍
           </ul>
 
         </div>
+        <br /><br />
         <div className={Styles["dev-roadmap-mint "]}>
-          <h4 className={Styles["dev-roadmap-mint-title"]}> 2- SECOND Step CSS 🥳</h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> 2- SECOND Step CSS 🥳 <br /> (20 Hours)</h4>
           <ul className={Styles["dev-roadmap-list"]}>
             <li>Learn CSS Basics            </li>
             <br/>
@@ -136,9 +133,9 @@ Web Development Outlines🤍
 
 
       
-      <div className={Styles["dev-roadmap-right"]}>
+      <div className={Styles["dev-roadmap-lef"]}>
         <div className={Styles["dev-roadmap-mint"]}>
-          <h4 className={Styles["dev-roadmap-mint-title"]}> 3- FrameWorks  Css♡</h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> 3- FrameWorks  Css♡ <br /> (8 Hours)</h4>
           <ul className={Styles["dev-roadmap-list"]}>
             <li>Tailwind CSS (ON REACT JS) </li>
             <br/>
@@ -147,7 +144,7 @@ Web Development Outlines🤍
           </ul>
         </div>
         <div className={Styles["dev-roadmap-mint"]}>
-          <h4 className={Styles["dev-roadmap-mint-title"]}>4-  JavaScript🥰</h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>4-  JavaScript🥰 <br /> (32 Hours)</h4>
           <ul className={Styles["dev-roadmap-list"]}>
             <li> What is JavaScript?
             </li>
@@ -266,9 +263,9 @@ Web Development Outlines🤍
 <li> ES6+
 </li>
 
-<h4 className={Styles["dev-roadmap-mint-title"]}>5- React JS ♡</h4>
+<h4 className={Styles["dev-roadmap-mint-title"]}>5- React JS ♡ <br />(12 Hours)</h4>
 
-<li color="red"> React Content❤️‍🔥↓
+<li color="red"> React Content❤️‍🔥↓ 
 </li>
 <br/>
 
@@ -363,6 +360,7 @@ Web Development Outlines🤍
       </h1>
       <br/>
 <br/>
+      <div className={Styles["dev-roadmap-left"]} >
           <h4 className={Styles["dev-roadmap-mint-title"]}>1- Js Refresh  ♡</h4>
           <ul className={Styles["dev-roadmap-list"]}>
             <li> JS Basics 🤔</li>
@@ -562,7 +560,7 @@ Web Development Outlines🤍
       </div>
 
 
-      
+      </div>
     </div>
 
   );
