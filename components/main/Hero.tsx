@@ -1,11 +1,11 @@
 import React from "react";
-import HeroContent from "../sub/HeroContent";
+import Skills from "./Skills";
 
 const Hero = () => {
   return (
     <div className="relative flex flex-col h-full w-full" id="about-me">
  
-      <HeroContent />
+      <Skills />
     </div>
   );
 };

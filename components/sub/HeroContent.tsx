@@ -50,11 +50,11 @@ const HeroContent = () => {
 
         </motion.p>
         <motion.a 
-          href="https://roadmap--black.vercel.app/"// added href
+          href="https://project-umber-kappa.vercel.app/"// added href
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[500px]"
         >
-       🧑‍💻 ♥️    محتوي الدبلومة
+       🧑‍💻 مشاريع عملية
 
       </motion.a>
       </div>
